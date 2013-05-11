@@ -115,6 +115,29 @@ ul.posts {
     color: #aaa;
   }
 
+  .site #tags {
+
+  }
+    .site #tags a {
+      color: #999;
+      text-decoration: none;
+      margin-right: 1em;
+    }
+
+    .site #tags a:hover {
+      color: black;
+    }
+
+    .site #tags a.extra {
+      color: #aaa;
+      text-decoration: none;
+      margin-left: 1em;
+    }
+
+    .site #tags a.extra:hover {
+      color: black;
+    }
+
   .site .footer {
     font-size: 80%;
     color: #666;
@@ -122,6 +145,25 @@ ul.posts {
     margin-top: 2em;
     overflow: hidden;
   }
+
+    .site .footer a {
+      color: #a00;
+      text-decoration: none;
+    }
+
+    .site .footer a:hover {
+      color: black;
+    }
+
+    .site .footer a.extra {
+      color: #aaa;
+      text-decoration: none;
+      margin-left: 1em;
+    }
+
+    .site .footer a.extra:hover {
+      color: black;
+    }
 
     .site .footer .contact {
       float: left;
